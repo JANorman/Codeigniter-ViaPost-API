@@ -1,17 +1,4 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/*
-class NSSoapClient extends SoapClient {
-
-    function __doRequest($request, $location, $action, $version) {
-    	$request = str_replace('<ns1:', '<', $request);
-    	$request = str_replace('</ns1:', '</', $request);
-
-        // parent call
-        return parent::__doRequest($request, $location, $action, $version);
-    }
-}
-*/
-
 /**
  * CodeIgniter
  *
