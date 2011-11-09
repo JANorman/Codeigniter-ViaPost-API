@@ -13,7 +13,7 @@ class Welcome extends CI_Controller {
 			// Upload a letter
 			if($this->viapost->create_letter('./reminder.pdf', date('H:i:s')))
 			{
-				$this->viapost->to('Your Name', 'JNorman', '13 Church Hill', 'Purley', 'Purley', 'Purley', 'CR8 3QP');
+				$this->viapost->to('Your Name', 'Your Org', 'First Line', 'Second Line', 'Third Line', 'Fourth Line', 'POSTCODE');
 				
 				if($this->viapost->send(1, 1, true, false))
 					echo 'Message Sent!';
