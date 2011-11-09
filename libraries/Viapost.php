@@ -224,7 +224,7 @@ class Viapost {
 	 * Adds a recepient
 	 * @access	public
 	 * @param 	name	Person's name
-	 * @param	organisation	Organisation
+	 * @param	org	Organisation
 	 * @param	street1	Street Line 1
 	 * @param	street2	Street Line 2
 	 * @param	street3	Street Line 3
