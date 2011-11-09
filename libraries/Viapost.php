@@ -137,8 +137,8 @@ class Viapost {
 	{
 		if($username == null && $password == null)
 		{
-			$this->account_details['username'] = $config['username'];
-			$this->account_details['password'] = $config['password'];
+			$this->account_details['username'] = $this->config['username'];
+			$this->account_details['password'] = $this->config['password'];
 			
 		}
 		else
